@@ -1,0 +1,385 @@
+﻿[
+  {
+    "slug": "alom",
+    "title": "Dungeon di Musci",
+    "authors_label": "Alom",
+    "authors_full": ["M Tashriful Alom"],
+    "genre": "Raycasting horror / school boss-fight",
+    "script": "games/Alom/alom_gioco.py",
+    "doc": "games/Alom/alom_relazione.pdf",
+    "cover": "alom_cover.png",
+    "description": "Esplori un labirinto scolastico in pseudo-3D, recuperi PC e affronti il prof finale tra allarmi e audio dinamico.",
+    "summary": [
+      "Questo progetto prende la struttura di uno shooter raycasting e la trasforma in un horror scolastico con ironia interna alla classe.",
+      "Il ritmo alterna esplorazione, raccolta oggetti e scontro finale, con una messa in scena che usa bene sprite, atmosfera e tensione."
+    ],
+    "features": [
+      "Rendering raycasting con atmosfera horror scolastica",
+      "Boss fight finale e oggetti da raccogliere",
+      "Supporto audio sintetico e file MP3 esterni"
+    ],
+    "controls": [
+      "WASD o frecce: movimento",
+      "Mouse: visuale / mira",
+      "Click sinistro: sparo / azione",
+      "Esc: uscita garantita dal launcher wrapper"
+    ]
+  },
+  {
+    "slug": "anostini_cipriano",
+    "title": "Giorgi Tower Defense",
+    "authors_label": "Anostini / Cipriano",
+    "authors_full": ["Diego Anostini", "Christian Cipriano"],
+    "genre": "Tower defense strategico",
+    "script": "games/Anostini Cipriano/anostini_cipriano_gioco.py",
+    "doc": "games/Anostini Cipriano/anostini_cipriano_relazione.pdf",
+    "cover": "anostini_cipriano_cover.png",
+    "description": "Difendi la scuola piazzando torrette-professori contro ondate di studenti e boss a tema Giorgi.",
+    "summary": [
+      "Un tower defense pieno di riferimenti scolastici, costruito attorno a placement, upgrade e gestione del ritmo delle ondate.",
+      "Il punto forte e la conversione dell'immaginario di classe in ruoli di gameplay leggibili e immediati."
+    ],
+    "features": [
+      "Ambientazione scolastica con lavagna, banchi e professori caricaturali",
+      "Economia con upgrade e vendita torri",
+      "Ondate progressive fino al boss finale Musci"
+    ],
+    "controls": [
+      "Click sinistro: seleziona / piazza torri",
+      "Click destro: upgrade torre",
+      "Click rotellina: vendi torre",
+      "Esc: uscita garantita dal launcher wrapper"
+    ]
+  },
+  {
+    "slug": "apeno",
+    "title": "Luna Park Shooting Gallery: Prof. Revenge",
+    "authors_label": "Apeno",
+    "authors_full": ["Roberto Carlo Apeno Cisneros"],
+    "genre": "Arcade shooting gallery",
+    "script": "games/Apeno/apeno_gioco.py",
+    "doc": "games/Apeno/apeno_relazione.pdf",
+    "cover": "apeno_cover.png",
+    "description": "Un tiro al bersaglio da luna park dove i bersagli sono professori-mostri, con combo, bonus e boss finale.",
+    "summary": [
+      "Qui il formato da sala giochi e frontale: bersagli, punteggio, reattivita e progressione rapida verso un climax da boss fight.",
+      "L'idea funziona perche usa il lessico del luna park come cornice chiara e riconoscibile, senza complicare troppo il loop."
+    ],
+    "features": [
+      "Palco scorrevole con nemici scolastici e dialoghi ironici",
+      "Combo e power-up durante il combattimento",
+      "Fallback grafico procedurale se mancano immagini"
+    ],
+    "controls": [
+      "A / D o frecce sx-dx: movimento laterale",
+      "Mouse: mira e spara",
+      "Invio: conferma nome / avvio",
+      "Esc: uscita garantita dal launcher wrapper"
+    ]
+  },
+  {
+    "slug": "baldeon",
+    "title": "Alien Attack",
+    "authors_label": "Baldeon",
+    "authors_full": ["Samuel Alvaro Baldeon Obregon"],
+    "genre": "Arcade space shooter",
+    "script": "games/Baldeon/baldeon_gioco.py",
+    "doc": "games/Baldeon/baldeon_relazione.pdf",
+    "cover": "baldeon_cover.png",
+    "description": "La nave del giocatore deve abbattere gli alieni prima che tocchino la difesa o scendano troppo in basso.",
+    "summary": [
+      "Un classico space shooter molto diretto, pensato per partite brevi e lettura immediata di obiettivo, rischio e punteggio.",
+      "La forza del progetto sta nella chiarezza arcade: entri, capisci subito cosa fare e giochi senza attrito."
+    ],
+    "features": [
+      "Formula arcade classica e immediata",
+      "Nemici casuali e punteggio a obiettivo",
+      "Condizioni di vittoria e game over molto chiare"
+    ],
+    "controls": [
+      "Frecce sinistra / destra: movimento nave",
+      "Spazio: spara",
+      "Esc: uscita garantita dal launcher wrapper"
+    ]
+  },
+  {
+    "slug": "bondar",
+    "title": "Grazie Gattino",
+    "authors_label": "Bondar",
+    "authors_full": ["Polina Bondar"],
+    "genre": "Arcade survival",
+    "script": "games/Bondar/bondar_gioco.py",
+    "doc": "games/Bondar/bondar_relazione.pdf",
+    "cover": "bondar_cover.png",
+    "description": "Sopravvivi per 60 secondi proteggendo il gattino mentre fuggi da uno zombie sempre piu vicino.",
+    "summary": [
+      "Un survival compatto costruito attorno a una premessa semplice e simpatica, con buona leggibilita di avatar, nemico e obiettivo.",
+      "E uno dei titoli piu adatti al formato cabinet: pochi secondi per capire il problema, subito in partita."
+    ],
+    "features": [
+      "Menu, regole, selezione personaggio e difficolta",
+      "Asset grafici personalizzati",
+      "Loop semplice e leggibile, perfetto da cabinet arcade"
+    ],
+    "controls": [
+      "Mouse: navigazione menu",
+      "Frecce: movimento personaggio",
+      "Esc: uscita garantita dal launcher wrapper"
+    ]
+  },
+  {
+    "slug": "chiloti_marku",
+    "title": "Escape from Musci",
+    "authors_label": "Chiloti / Marku",
+    "authors_full": ["Alessandro Chiloti", "Federico Marku"],
+    "genre": "Action school adventure",
+    "script": "games/Chiloti Marku/chiloti_marku_gioco.py",
+    "doc": "games/Chiloti Marku/chiloti_marku_relazione.pdf",
+    "cover": "chiloti_marku_cover.png",
+    "description": "Due fasi di gioco: corsa nel traffico verso scuola e boss fight finale contro Musci se scegli la via del 10.",
+    "summary": [
+      "Questo e uno dei progetti piu narrativi del gruppo: introduce scelta, percorso, mini-obiettivi e un boss finale che cambia tono al gioco.",
+      "La doppia struttura, prima fuga e poi scontro, gli da una personalita forte e molto scolastica nel senso migliore del termine."
+    ],
+    "features": [
+      "Percorsi alternativi tra studio e copia del codice",
+      "Power-up come caffe e scudo",
+      "Boss fight con mouse e proiettili binari"
+    ],
+    "controls": [
+      "WASD o frecce: movimento",
+      "Mouse: mira e spara nella boss fight",
+      "Spazio: avanza / conferma in alcune schermate",
+      "Esc: uscita garantita dal launcher wrapper"
+    ]
+  },
+  {
+    "slug": "condori",
+    "title": "Orbital Cleanup: La Sfida di MATATO",
+    "authors_label": "Condori",
+    "authors_full": ["Angelo Alessio Condori Lopez"],
+    "genre": "Arcade space shooter / boss fight",
+    "script": "games/Condori/codice_Minigioco.Condori.py",
+    "doc": "games/Condori/Relazione Angelo Condori.pdf",
+    "cover": "condori_cover.png",
+    "description": "Schiva meteoriti, raccogli monete e potenzia la navicella fino allo scontro finale contro MATATO con raffiche sempre piu aggressive.",
+    "summary": [
+      "Uno shooter spaziale a progressione rapida: punteggio, livello e potenziamento a triplo colpo costruiscono una curva arcade chiara.",
+      "Il climax con boss fight e meteoriti a raffica rende la partita piu intensa nel finale e adatta bene il progetto al formato cabinet."
+    ],
+    "features": [
+      "Progressione a livelli con incremento difficolta",
+      "Triplo sparo sbloccabile dopo 10 monete",
+      "Boss finale MATATO con pattern a raffiche"
+    ],
+    "controls": [
+      "Freccia sinistra / destra: movimento navicella",
+      "Spazio: spara",
+      "X: avvia dal menu interno del gioco",
+      "Esc: uscita garantita dal launcher wrapper"
+    ]
+  },
+  {
+    "slug": "di_canio_grigoryshenia",
+    "title": "Panico Alla Pizza!",
+    "authors_label": "Di Canio / Grigoryshenia",
+    "authors_full": ["Giulia Anna Di Canio", "Sofiia Grygoryshena"],
+    "genre": "Catcher game arcade",
+    "script": "games/Di Canio Grigoryshenia/di_canio_grigoryshenia_panico_alla_pizza.py",
+    "doc": "games/Di Canio Grigoryshenia/di_canio_grigoryshenia_relazione_panico_alla_pizza.pdf",
+    "cover": "di_canio_grigoryshenia_cover.png",
+    "description": "Raccogli pizze e stelle, evita bombe e scegli una protagonista in un catcher game colorato con audio generato in codice.",
+    "summary": [
+      "Un arcade allegro e leggibile che usa bene il formato raccogli/evita, arricchendolo con personaggi, livelli e feedback visivi continui.",
+      "E interessante anche sul piano tecnico per l'uso di grafica disegnata in Pygame e audio generato direttamente via codice."
+    ],
+    "features": [
+      "Personaggi disegnati direttamente con primitive Pygame",
+      "Musica e suoni procedurali 8-bit",
+      "Vite, livelli e feedback visivo con particelle"
+    ],
+    "controls": [
+      "Mouse: menu e selezione personaggio",
+      "Frecce sinistra / destra: movimento",
+      "R: ricomincia",
+      "Esc: uscita garantita dal launcher wrapper"
+    ]
+  },
+  {
+    "slug": "el_halawti",
+    "title": "No Sleep Run: Cobweb Edition",
+    "authors_label": "El Halawti",
+    "authors_full": ["Mohamed El Sayed Ahmed El Halawti"],
+    "genre": "Endless runner platform",
+    "script": "games/El Halawti/el_halawti_gioco.py",
+    "doc": "games/El Halawti/el_halawti_relazione.pdf",
+    "cover": "el_halawti_cover.png",
+    "description": "Corri sui tetti, schiva ostacoli, raccogli monete e fuggi dall'incubo in un endless runner con parkour e audio sintetico.",
+    "summary": [
+      "Un endless runner con identita visiva e sonora piu curata della media, che punta su scorrimento, riflessi e pressione continua.",
+      "Il progetto si distingue per il lavoro sull'audio procedurale e per il fatto che l'high score resta salvato nella cartella del gioco."
+    ],
+    "features": [
+      "Suoni e musica ambientale generati matematicamente",
+      "Doppio salto, scivolata e power-up temporanei",
+      "Salvataggio dell'high score nella cartella del gioco"
+    ],
+    "controls": [
+      "Spazio: salto / doppio salto",
+      "Freccia giu: scivolata",
+      "Esc: uscita garantita dal launcher wrapper"
+    ]
+  },
+  {
+    "slug": "epifani_lopez",
+    "title": "Monkey Market",
+    "authors_label": "Epifani / Lopez",
+    "authors_full": ["Massimo Epifani", "Andrea Lopez"],
+    "genre": "Gestionale idle / market sim",
+    "script": "games/Epifani Lopez/epifani_lopez_gioco.py",
+    "doc": "games/Epifani Lopez/epifani_lopez_relazione.pdf",
+    "cover": "epifani_lopez_cover.png",
+    "description": "Gestisci un supermercato da scimmia: riempi scaffali, assumi aiutanti e sblocca nuovi reparti per espandere il business.",
+    "summary": [
+      "Un gestionale leggero ma completo, con loop di raccolta, rifornimento, assunzione e progressione economica.",
+      "Rispetto agli altri giochi del cabinet porta varietÃ  di genere e dimostra una buona comprensione di sistemi e progressione."
+    ],
+    "features": [
+      "Loop gestionale semplice ma completo",
+      "Aiutanti automatici e upgrade dei reparti",
+      "Versione originale e semplificata di un market sim"
+    ],
+    "controls": [
+      "WASD o frecce: movimento",
+      "Click sinistro: pulsanti e acquisti",
+      "Esc: uscita garantita dal launcher wrapper"
+    ]
+  },
+  {
+    "slug": "geroli",
+    "title": "Final Fantasy: Goblin Hero",
+    "authors_label": "Geroli",
+    "authors_full": ["Davide Geroli"],
+    "genre": "JRPG con combattimenti a turni",
+    "script": "games/Geroli/geroli_gioco_v2.py",
+    "doc": "games/Geroli/geroli_relazione.pdf",
+    "cover": "geroli_cover.png",
+    "description": "Un JRPG visto dal lato del goblin: esplorazione a griglia, combattimenti a turni, boss, vite e cheat code opzionali.",
+    "summary": [
+      "Il progetto con l'identita di genere piu marcata del gruppo: assume il linguaggio del JRPG e lo riporta in chiave ironica e scolastica.",
+      "Ha piu sistemi degli altri titoli, tra esplorazione, scontri, menu, vite e finali, e per questo funziona bene anche come pezzo da mostrare."
+    ],
+    "features": [
+      "Protagonista terziario dalla parte dei cattivi",
+      "Sistema di livelli, vite e finali multipli",
+      "Asset esterni per eroi e boss con doppia lingua"
+    ],
+    "controls": [
+      "Frecce: movimento sulla mappa",
+      "A: attacca, R: fuggi, H: abilita speciale",
+      "Invio, X, K, Z, Y, N: menu e scelte contestuali",
+      "Esc: uscita garantita dal launcher wrapper"
+    ]
+  },
+  {
+    "slug": "lyanage_sohail",
+    "title": "Divines & Darklings",
+    "authors_label": "Lyanage / Sohail",
+    "authors_full": ["Nimmi Natasha Liyanage Perera", "Rameen Sohail"],
+    "genre": "Dress-up + fashion battle",
+    "script": "games/Lyanage Sohail/lyanage_sohail_gioco.py",
+    "doc": "games/Lyanage Sohail/lyanage_sohail_relazione.pdf",
+    "cover": "lyanage_sohail_cover.png",
+    "description": "Prima scegli la fazione e il look da passerella, poi trasformi la sfilata in un duello magico tra angeli e darklings.",
+    "summary": [
+      "Uno dei concept piu originali del set: mischia dress-up, runway e scontro click-based in un progetto che cambia tono senza perdere coerenza.",
+      "La scelta di lavorare su stile, tema e punteggio degli outfit lo rende diverso da quasi tutto il resto del cabinet."
+    ],
+    "features": [
+      "Mix di dress-up game, runway show e combat arcade",
+      "Temi random e outfit con punteggi diversi",
+      "Sistema di azioni click-based nella fase fight"
+    ],
+    "controls": [
+      "Mouse: tutte le scelte, outfit e attacchi",
+      "Esc: uscita garantita dal launcher wrapper"
+    ]
+  },
+  {
+    "slug": "mathota",
+    "title": "The Last Corridor",
+    "authors_label": "Mathota",
+    "authors_full": ["Tharuth Deshan Perera Mathota Arachchige"],
+    "genre": "3D corridor horror survival",
+    "script": "games/Mathota/mathota_gioco.py",
+    "doc": "games/Mathota/mathota_relazione.pdf",
+    "cover": "mathota_cover.png",
+    "description": "Backrooms, zombie e una porta casuale da trovare in un survival horror in pseudo-3D con difficolta selezionabile.",
+    "summary": [
+      "Questo titolo spinge piu di tutti sul lato horror e sulla sensazione di smarrimento, con una struttura backrooms molto leggibile.",
+      "Nel launcher viene avviato sempre in finestra normale: il wrapper blocca il fullscreen forzato originale e lascia un'uscita immediata con Esc."
+    ],
+    "features": [
+      "Raycasting, porta random e zombie che inseguono",
+      "Tre difficolta con danni e velocita diverse",
+      "Mira col mouse e shooting continuo"
+    ],
+    "controls": [
+      "WASD: movimento",
+      "Mouse: visuale / mira",
+      "Click sinistro: sparo",
+      "Esc: uscita garantita dal launcher wrapper"
+    ]
+  },
+  {
+    "slug": "quirino_zago",
+    "title": "Il Cacciatore di Comete / Space Hunter",
+    "authors_label": "Quirino / Zago",
+    "authors_full": ["Samuele Quirino", "Valerio Zago"],
+    "genre": "Arcade dodging",
+    "script": "games/Quirino Zago/quirino_zago_gioco.py",
+    "doc": "games/Quirino Zago/quirino_zago_relazione.pdf",
+    "cover": "quirino_zago_cover.png",
+    "description": "Controlli un'astronave sul fondo dello schermo, raccogli comete e schivi meteoriti sempre piu veloci.",
+    "summary": [
+      "Un gioco di schivate e riflessi molto puro, con un'idea semplice ma ben allineata al tempo breve dell'arcade scolastico.",
+      "L'aggiunta del god mode e della crescita graduale della pressione gli da un minimo di curva senza complicarlo inutilmente."
+    ],
+    "features": [
+      "Partite veloci basate su schivate e riflessi",
+      "Power-up God Mode sui livelli dispari",
+      "Crescita di difficolta con spawn progressivo"
+    ],
+    "controls": [
+      "Frecce sinistra / destra: movimento",
+      "Spazio: start / rigioca",
+      "Esc: uscita garantita dal launcher wrapper"
+    ]
+  },
+  {
+    "slug": "rondi",
+    "title": "Pong Tennis Career",
+    "authors_label": "Rondi",
+    "authors_full": ["Lorenzo Rondi"],
+    "genre": "Arcade sports / career sim",
+    "script": "games/Rondi/rondi_gioco.py",
+    "doc": "games/Rondi/rondi_relazione.pdf",
+    "cover": "rondi_cover.png",
+    "description": "Una carriera tennistica che parte da Pong ma aggiunge tornei, soldi, upgrade e regole di battuta piu realistiche.",
+    "summary": [
+      "Parte da una base ultraclassica ma prova ad allargarla verso una progression mode, con soldi, tornei e crescita del personaggio.",
+      "Il risultato e interessante proprio perche prova a portare un'idea arcade dentro una struttura piu ampia di carriera."
+    ],
+    "features": [
+      "Hub carriera con potenziamenti di velocita, potenza e battuta",
+      "Match con vincoli di campo e servizi mirati col mouse",
+      "Progressione avversari in stile torneo"
+    ],
+    "controls": [
+      "Invio: conferma nome",
+      "Mouse: menu e mira la battuta",
+      "WASD o frecce: movimento in campo",
+      "Esc: uscita garantita dal launcher wrapper"
+    ]
+  }
+]
